@@ -46,7 +46,3 @@ These labs show my ability to take a concept, code it, test it, and explain it c
 While the exercises are educational in scope, they provide a solid technical foundation and demonstrate that I can quickly learn and apply new machine learning techniques in practice.
 
 ---
-
-If you want, I can now **add a final “Next Steps” section** that says you’re building on these skills with larger, self-directed ML projects. That would make it look like this repo is the start of a broader portfolio rather than the main showcase.
-
-Do you want me to add that?
