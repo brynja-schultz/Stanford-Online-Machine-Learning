@@ -1,48 +1,59 @@
-# Machine Learning Specialization — Applied Labs
+# Machine Learning Specialization — Labs
 
-This repository contains my completed programming exercises from the [Coursera Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction), taught by Andrew Ng and developed by DeepLearning.AI in collaboration with Stanford Online.
+*Stanford Online & DeepLearning.AI via Coursera (Instructor: Andrew Ng)*
 
-Each notebook applies machine learning concepts through hands-on coding in Python. The labs are designed as structured exercises to practice implementing algorithms, interpreting outputs, and documenting results. They build foundational skills for working with real-world ML problems while reinforcing theory from the lectures.
+## Course Context
 
-The files are named using the format `C<course_number>_W<week_number>_<Topic>.ipynb`. For example, `C1_W2_Linear_Regression.ipynb` contains the Week 2 lab from Course 1 on linear regression, while `C2_W4_Decision_Tree_with_Markdown.ipynb` walks through building a decision tree classifier.
+This repository contains my completed programming labs from the **Machine Learning Specialization** by Andrew Ng, offered jointly by **Stanford Online** and **DeepLearning.AI**, completed in **2025**.
+The labs are guided, hands-on exercises that focus on correct implementation, interpretation, and clear documentation of core ML methods.
 
----
-
-## Topics Covered
-
-**Course 1: Supervised Machine Learning**
-
-* Linear Regression — gradient descent, cost functions, feature scaling
-* Logistic Regression — binary classification, decision boundaries, evaluation metrics
-
-**Course 2: Advanced Learning Algorithms**
-
-* Neural Networks — binary and multiclass classification with forward/backward propagation
-* Model Selection — bias/variance, cross-validation, regularization
-* Decision Trees — splitting criteria, information gain, tree visualization
+**Tech Stack:** Python · NumPy · scikit-learn · Matplotlib · Jupyter Notebook
 
 ---
 
-## Skills Practiced
+## Project Highlights
 
-* Implementing ML algorithms in Python
-* Using NumPy, Matplotlib, and scikit-learn for development and visualization
-* Structuring and documenting code in Jupyter notebooks
-* Applying model evaluation metrics to compare approaches
-* Explaining ML processes in clear, concise markdown cells
-
----
-
-## Tech Stack
-
-Python · NumPy · Matplotlib · scikit-learn · Jupyter Notebook
+* **C1W2 — Linear Regression** — Implement gradient descent and evaluate a univariate/multivariate linear model; visualize loss vs. iterations.
+* **C1W3 — Logistic Regression** — Build a binary classifier, plot decision boundaries, and assess performance with appropriate metrics.
+* **C2W1 — Neural Networks (Binary Classification)** — Implement forward/backward propagation for a small MLP; compare learned decision boundaries to logistic regression.
+* **C2W2 — Neural Networks (Multiclass)** — Extend the MLP to multiclass outputs; train and evaluate accuracy on a labeled dataset.
+* **C2W3 — Applying ML in Practice** — Pipeline mindset: split data, scale features, regularize/tune, and validate; compare models with simple, readable plots.
+* **C2W4 — Decision Tree (Information Gain)** — Construct a decision tree with entropy/information gain and explain splits in markdown.
 
 ---
 
-## Why This Matters
+## Skills Demonstrated
 
-These labs show my ability to take a concept, code it, test it, and explain it clearly. They reflect skills that apply directly to professional data science and ML workflows—such as working in Python, structuring notebooks for reproducibility, and applying algorithms to structured datasets.
-
-While the exercises are educational in scope, they provide a solid technical foundation and demonstrate that I can quickly learn and apply new machine learning techniques in practice.
+* Translating ML theory into **working Python/Numpy code** and clean, reproducible notebooks.
+* **Model training & evaluation**: loss curves, decision boundaries, accuracy and related metrics.
+* **Neural network fundamentals**: forward/backprop for binary and multiclass tasks.
+* **Practical ML workflow**: train/validation split, feature scaling, simple tuning, and comparisons.
+* Communicating results with **clear markdown explanations** and simple visualizations.
 
 ---
+
+## How to Run
+
+Open any notebook in Jupyter and run top-to-bottom:
+
+```bash
+# optional: create a venv
+python -m venv .venv && source .venv/bin/activate
+pip install numpy matplotlib scikit-learn jupyter
+
+jupyter notebook C1_W2_Linear_Regression.ipynb
+```
+
+---
+
+## What to Look For
+
+* **Readable, self-contained notebooks**: each lab sets up data, trains a model, visualizes results, and explains takeaways.
+* **Correctness and clarity over flash**: straightforward implementations, stepwise plots, and concise commentary.
+* **Progression** from linear → logistic → neural nets → applied workflow → decision trees, showing breadth across core supervised methods.
+
+---
+
+## Portfolio Note
+
+This repository is part of my academic/professional portfolio. For additional projects, see my [GitHub profile](https://github.com/brynja-schultz).
