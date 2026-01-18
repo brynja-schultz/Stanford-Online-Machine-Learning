@@ -1,6 +1,7 @@
 # Machine Learning Specialization — Labs
 
 *Stanford Online & DeepLearning.AI via Coursera (Instructor: Andrew Ng)*
+Lecture Notes: https://drive.google.com/drive/folders/196PpKIkVg9aVgpujt91YCNrwzbl4Pvg_?usp=sharing
 
 ## Course Context
 
